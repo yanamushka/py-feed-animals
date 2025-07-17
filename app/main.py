@@ -25,7 +25,7 @@ class Cat(Animal):
         print("The hunt began!")
 
 
-class Dog(Animal) -> str:
+class Dog(Animal):
     def __init__(self, name: str, appetite=7, is_hungry=True) -> None:
         super().__init__(name, appetite, is_hungry)
 
